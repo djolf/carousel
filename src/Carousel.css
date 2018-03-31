@@ -1,0 +1,51 @@
+button {
+    background-color: white;
+}
+
+.carousel-container{
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-viewport {
+    white-space: nowrap;
+    overflow-y:hidden;
+    overflow-x:auto;
+    -webkit-overflow-scrolling: touch;
+    width:960px;
+}
+
+.carousel-viewport::-webkit-scrollbar {
+    display:none;
+}
+
+.carousel-left-nav .slide {
+    position: relative;
+    left: -750px;
+}
+
+.carousel-nav {
+    cursor: pointer;
+    padding:0;
+    width:200px;
+    outline:none;
+    opacity:.8;
+    transition: opacity .2s ease-in-out;
+    box-shadow: none;
+    border:0;
+    overflow: hidden;
+    
+}
+
+.carousel-nav:hover {
+    opacity:1;
+}
+
+.carousel-right-nav .slide {
+    position: relative;
+    left:0;
+}
+
+.hidden {
+    display:none;
+}

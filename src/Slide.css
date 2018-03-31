@@ -1,0 +1,8 @@
+.slide {
+    display: inline-block;
+    vertical-align: top;
+    height:auto;
+    width:auto;
+    padding:5px;
+    white-space: normal;
+}
